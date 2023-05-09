@@ -1,9 +1,9 @@
+from local_settings import api_key
 import pandas as pd
 import plotly.graph_objects as go
 import requests
 
 # Get data from polygon API
-api_key = "ST9vA1GYk8pSmFUQaFBQBPM2armBdsnm"
 symbol = "AAPL"
 start_date = "2022-01-01"
 end_date = "2022-12-31"
