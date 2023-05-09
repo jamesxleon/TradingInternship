@@ -1,2 +1,3 @@
 # .gitignore
-local_settings.py
+PolygonTests/local_settings.py
+
