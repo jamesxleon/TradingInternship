@@ -2,4 +2,5 @@
 PolygonTests/local_settings.py
 Radu with TimeScaleDB/env.py
 Radu with TimeScaleDB/*.csv 
-Radu with TimeScaleDB/last_successful_index
+Radu with TimeScaleDB/last_successful_index.txt
+Radu with TimeScaleDB/James.ipynb
