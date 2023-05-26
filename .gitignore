@@ -4,3 +4,8 @@ Radu with TimeScaleDB/env.py
 Radu with TimeScaleDB/*.csv 
 Radu with TimeScaleDB/last_successful_index.txt
 Radu with TimeScaleDB/James.ipynb
+ChatGPT_APIApp/local_settings.py
+ChatGPT_APIApp/*.txt
+ChatGPT_APIApp/OpenAI_app.py
+ChatGPT_APIApp/parsed_data.pkl
+ChatGPT_APIApp/tests
