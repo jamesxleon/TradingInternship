@@ -9,3 +9,6 @@ ChatGPT_APIApp/*.txt
 ChatGPT_APIApp/OpenAI_app.py
 ChatGPT_APIApp/parsed_data.pkl
 ChatGPT_APIApp/tests
+ChatGPT_APIApp/.ipynb_checkpoints/local_settings-checkpoint.py
+Radu with TimeScaleDB/env.py
+*.ipynb_checkpoints
