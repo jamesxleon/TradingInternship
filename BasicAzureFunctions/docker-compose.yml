@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  basicazurefunctions:
+    command: ["func", "start"]
+    image: basicazurefunctions
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name:  bascazurefunctions-container
+    platform: linux/amd64
+    environment:
+      - FUNCTIONS_WORKER_RUNTIME=python
+      - AZURE_FUNCTIONS_ENVIRONMENT=Development
+      - FUNCTIONS_EXTENSION_VERSION=4
+      - NO_PROXY=localhost,127.0.0.1
+    ports:
+      - 30003:80
+      - 5678:5678
+    volumes:
+      - /Users/jamesleon/Documents/GitHub/TradingInternship/BasicAzureFunctions:/home/site/wwwroot
+
+
