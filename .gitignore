@@ -11,4 +11,4 @@ ChatGPT_APIApp/parsed_data.pkl
 ChatGPT_APIApp/tests
 ChatGPT_APIApp/.ipynb_checkpoints/local_settings-checkpoint.py
 Radu with TimeScaleDB/env.py
-*.ipynb_checkpoints
+Radu with TimeScaleDB/.ipynb_checkpoints
